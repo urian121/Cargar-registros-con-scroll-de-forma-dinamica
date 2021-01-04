@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carga de Datos con Scroll usando PHP - MYSQL y JQUERY de forma Dinamica</title>
+    <title>Carga de Datos con Scroll usando PHP - MYSQL - AJAX - JQUERY de forma Dinamica</title>
     <link type="text/css" rel="shortcut icon" href="imgs/logo-mywebsite-urian-viera.svg"/>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -20,7 +20,7 @@
 <br><br>
 <br>  
 
-<h3 class="text-center">Carga de Datos con Scroll usando PHP -MYSQL -AJAX - JQUERY de forma Dinamica</h3>
+<h3 class="text-center">Carga de Datos con Scroll usando PHP -MYSQL - AJAX - JQUERY de forma Dinamica</h3>
 
 
 <div class="container" id="lista-comentarios">
