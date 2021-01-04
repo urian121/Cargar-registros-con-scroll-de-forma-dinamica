@@ -74,10 +74,10 @@ while ($dataComentarios = mysqli_fetch_assoc($resultadoComentarios)) { ?>
 
 <script type="text/javascript">
 $(document).ready(function(){
-        windowOnScroll();
+        pageScroll();
 });
 
-function windowOnScroll() {
+function pageScroll() {
     $(window).on("scroll", function() {
         var scrollHeight = $(document).height();
         var scrollPos    = $(window).height() + $(window).scrollTop();
@@ -100,7 +100,7 @@ function windowOnScroll() {
                         setTimeout(function() {
                             $('.ajax-loader').hide();
                             $("#lista-comentarios").append(data);
-                        windowOnScroll(); 
+                        pageScroll(); 
                         }, 1000);
                     }
                });
